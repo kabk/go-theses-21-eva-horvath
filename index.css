@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Signifier;
+    src: url(css/Signifier-test.woff);
+}
+
+@font-face {
+    font-family: Skanaus;
+    src: url(css/Skanaus-Regular.ttf);
+}
+
+/*body {margin:30px}*/
+
+.wall{
+    max-width: 100%;
+}
+
+
+.walloffear{
+  max-width: 100%;
+}
+
+.animation{
+    max-width: 100%;
+    padding-left: 23%;
+}
+
+/*
+.ani{
+    max-width: 50%;
+    position: fixed;
+
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  min-height: 900vh;
+
+}
+*/
+
+
+
+.movingtype{
+width:100%;
+}
+
+.gif{
+    max-width: 100%;
+    position: absolute;
+}
+
+.title{
+    font-family: Skanaus;
+    font-size: 2em;
+    max-width: 100%;
+    text-align: center; 
+    
+    
+    
+}
+
+
+
+.Abstract{
+font-family: Signifier;
+font-size: 1.2em;
+color: black;
+max-width: 100%;
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+ padding-top: 12%;
+    
+    
+}
+
+.Introduction{
+  font-family: Signifier;
+    font-size: 1.2em;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 12%;
+    
+    
+}
+
+/*
+.background {
+  background-color: blue;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px); 
+  height: 100vh;
+	width: 50%;
+}
+*/
+
+.firstchapter {
+font-family: Signifier;
+font-size: 1.2em;
+color: black;
+max-width: 100%;
+text-align: left;
+padding-left: 4%;
+padding-right: 4%;
+padding-top: 12%;
+    
+}
+
+.secondchapter {
+font-family: Signifier;
+font-size: 1.2em;
+color: black;
+max-width: 100%;
+text-align: left;
+padding-left: 4%;
+padding-right: 4%;
+padding-top: 12%;
+    
+}
+
+
+/*
+div
+{border-radius:50%;
+border:3px solid #09f;
+width:150px;
+height:150px;
+}
+*/
+
+
+a{
+    text-decoration: none;
+}
+
+
+/*Iphone 6, 7, 8 */;
+@media screen and (max-width:667px) 
+    
+ /*Iphone 10*/ 
+    
+@media screen and (max-width:812px) 
+    
