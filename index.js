@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', () => {
+  let navImage = document.getElementById('nav-image');
+  new Propeller(navImage, {
+    inertia: 0.99,
+    speed: 0,
+  });
+
+
+})
+
 //$(function() {
 //    var rotation = 0, 
 //        scrollLoc = $(document).scrollTop();
@@ -18,16 +28,16 @@
 
 
 
-window.addEventListener(
-  "scroll",
-  () => {
-    document.body.style.setProperty(
-      "--scroll",
-      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
-    );
-  },
-  false
-);
+// window.addEventListener(
+//   "scroll",
+//   () => {
+//     document.body.style.setProperty(
+//       "--scroll",
+//       window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+//     );
+//   },
+//   false
+// );
 
 
 

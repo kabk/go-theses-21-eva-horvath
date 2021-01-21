@@ -1,24 +1,24 @@
 @font-face {
-    font-family: Signifier;
-    src: url(css/Signifier-test.woff);
+  font-family: Signifier;
+  src: url(css/Signifier-test.woff);
 }
 
 @font-face {
-    font-family: Skanaus;
-    src: url(css/Skanaus-Regular.ttf);
+  font-family: Skanaus;
+  src: url(css/Skanaus-Regular.ttf);
 }
 
-
-
-
-
-.wall{
-    max-width: 100%;
-}
-
-
-.walloffear{
+.wall {
   max-width: 100%;
+}
+
+.walloffear {
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 1em 1em;
 }
 /*
 
@@ -51,62 +51,21 @@ body {
 }
 */
 
-
-
-svg {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-
-  animation: rotate 1s linear infinite;
-  animation-play-state: paused;
-  animation-delay: calc(var(--scroll) * -1s);
-
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
+.movingtype {
+  width: 100%;
 }
 
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
+.gif {
+  max-width: 100%;
+  position: absolute;
 }
 
-body {
-  min-height: 500vh;
+.title {
+  font-family: Skanaus;
+  font-size: 2em;
+  max-width: 100%;
+  text-align: center;
 }
-
-
-.gear{
-    background: url("http://i.imgur.com/zZ3fMuh.png");
-    width: 101px;
-    height: 102px;
-    position: fixed;
-}
-
-
-.movingtype{
-width:100%;
-}
-
-.gif{
-    max-width: 100%;
-    position: absolute;
-}
-
-.title{
-    font-family: Skanaus;
-    font-size: 2em;
-    max-width: 100%;
-    text-align: center; 
-    
-    
-    
-}
-
-
 
 /*
 .Abstract{
@@ -147,50 +106,38 @@ padding-right: 10%;
 	width: 50%;
 }
 */
-.terminology{
-    padding-top: 5%;
-     
-    
+.terminology {
+  padding-top: 5%;
 }
 .firstchapter {
-font-family: Signifier;
-font-size: 1.2em;
-color: black;
-max-width: 100%;
-
-    
+  font-family: Signifier;
+  font-size: 1.2em;
+  color: black;
+  max-width: 100%;
 }
 
 .secondchapter {
-font-family: Signifier;
-font-size: 1.2em;
-color: black;
-max-width: 100%;
-text-align: left;
-
-    
+  font-family: Signifier;
+  font-size: 1.2em;
+  color: black;
+  max-width: 100%;
+  text-align: left;
 }
 
-.thirdchapter{
-font-family: Signifier;
-font-size: 1.2em;
-color: black;
-max-width: 100%;
-text-align: left;
-
-    
+.thirdchapter {
+  font-family: Signifier;
+  font-size: 1.2em;
+  color: black;
+  max-width: 100%;
+  text-align: left;
 }
 
-
-.fourthchapter
-{
-font-family: Signifier;
-font-size: 1.2em;
-color: black;
-max-width: 100%;
-text-align: left;
-
-    
+.fourthchapter {
+  font-family: Signifier;
+  font-size: 1.2em;
+  color: black;
+  max-width: 100%;
+  text-align: left;
 }
 
 /*
@@ -202,16 +149,23 @@ height:150px;
 }
 */
 
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
+/*Iphone 6, 7, 8 */
+/* @media screen and (max-width: 667px) Iphone 10 @media screen and (max-width: 812px); */
 
-/*Iphone 6, 7, 8 */;
-@media screen and (max-width:667px) 
-    
- /*Iphone 10*/ 
-    
-@media screen and (max-width:812px) 
-    
+#nav-image {
+  position: relative;
+  margin-top: -20px;
+  width: 90vw;
+  height: 90vw;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
