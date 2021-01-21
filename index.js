@@ -1,3 +1,15 @@
+
+document.addEventListener('DOMContentLoaded', () => {
+  let navImage = document.getElementById('nav-image');
+  new Propeller(navImage, {
+    inertia: 0.99,
+    speed: 0,
+  });
+
+
+})
+
+
 $(document).ready(function() {
     
     /* Every time the window is scrolled ... */
@@ -29,14 +41,5 @@ $(document).ready(function() {
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  let navImage = document.getElementById('nav-image');
-  new Propeller(navImage, {
-    inertia: 0.99,
-    speed: 0,
-  });
-
-
-})
 
 
