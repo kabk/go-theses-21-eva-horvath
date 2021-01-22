@@ -15,16 +15,32 @@
   src: url(css/SuisseIntl-Medium.otf);
 }
 
+
+
+
+
+
 /*
 .wall {
   max-width: 100%;
 }
 */
 
+/*
 .walloffear {
 max-width: 100%;
-margin-top: 0%;
+
+padding-top: 10%;
+padding-left: 40%;
 }
+.walloffear.image{
+margin: auto;
+position: fixed;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+*/
+
 
 body {  
 /*  height: 500%;*/
@@ -62,6 +78,19 @@ body {
   max-width: 100%;
   text-align: center;
 }
+
+
+.ero{
+    margin-top: 320%;
+    
+}
+.ero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+}
+
 
 /*
 .Abstract{
