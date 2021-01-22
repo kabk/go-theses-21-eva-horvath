@@ -51,7 +51,8 @@ body {
 
 #container
 {
-    height:2000px;    
+    height:2000px;
+    margin-top: 140%;
 }
 
 #container DIV
