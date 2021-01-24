@@ -45,14 +45,20 @@ transform: translate(-50%, -50%);
 body {  
 /*  height: 500%;*/
   overflow-x: hidden;
-  padding: 1em 1em;
+  margin-left: 1em;
+    margin-right: 1em;
+    
  
+}
+
+.firsttext {
+    margin-top:60%;
 }
 
 #container
 {
     height:2000px;
-    margin-top: 45%;
+    margin-top: 40%;
 }
 
 #container DIV
@@ -61,7 +67,7 @@ body {
     font-weight: 550;
     font-size: 1.3em;
     margin-top:4px; 
-    padding-top:60px; 
+    padding-top:80px; 
     text-align: center;
 /*    background-color:lightgreen; */
 }
@@ -93,6 +99,11 @@ body {
 }
 
 
+.faces img{
+    padding-top: 0.3em;
+    max-width: 100%;
+    height: auto;
+}
 /*
 .Abstract{
 font-family: Signifier;
@@ -193,5 +204,6 @@ svg {
   position: absolute;
   top: 50%;
   left: 50%;
+/*  margin-right: 50%;*/
   transform: translate3d(-50%, -50%, 0);
 }
